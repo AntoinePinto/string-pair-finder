@@ -84,4 +84,6 @@ print(data[, c('list1', 'list2')])
 
 The "evaluation" folder contains an example of the application of the algorithm and a comparison with an existing String Matching algorithm.
 
+## Credits
 
+This repository is maintained by Antoine PINTO (antoine.pinto1@outlook.fr).
