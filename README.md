@@ -9,7 +9,7 @@ StringPairFinder is a Python package designed to simplify the process of finding
 ## Evaluation
 
 Evaluation on a dataset of 1000 observations (see `notebooks/1_evaluation.ipynb`) :
-* FuzzyWuzzy algorithm : 85.2 % of success rate
+* [FuzzyWuzzy](https://github.com/seatgeek/thefuzz) algorithm : 85.2 % of success rate
 * StringPairFinder algorithm : 94.0 % of success rate
 
 ## Installation
@@ -59,17 +59,6 @@ spf.match_strings(
     'Munich': 'Munchen',
     'Warsaw': 'Warszawa'}
 ```
-
-
-## Examples of use
-
-*   **Encoding variables in datasets before a merge**: It is common to want to merge datasets from different sources, but to encounter difficulties when the variables used to identify records are not coded in the same way. Using StringPairFinder to link the variables before the merge can facilitate this process.
-
-*   **Detection of duplicates in databases**: StringPairFinder can be used to detect duplicates in databases by matching and recoding strings that are mistakenly encoded differently.
-
-*   **Searching for match between names and email addresses**: StringPairFinder can be used to link names and email addresses in databases. This can be useful for contact management or mass emailing.
-
-*   **Searching for product similarity in online catalogs**: StringPairFinder can be used to link similar products in online catalogs. This can be used for tasks such as product recommendation or similar product search.
 
 ## What is the algorithm ?
 
